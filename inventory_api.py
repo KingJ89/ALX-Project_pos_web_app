@@ -19,4 +19,8 @@ def get_items():
     rows = cursor.fetchall()
     items = []
 
-
+ for row in rows:
+        items.append({"id": row[0], "name": row[1], "quantity": row[2], "price": row[3]})
+    cursor.close()
+    conn.close()
+    return jsonify(items)
