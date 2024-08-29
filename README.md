@@ -197,3 +197,13 @@ Help Provided
     Collaborative Brainstorming
         Feature Discussions: I engaged in brainstorming sessions with peers to discuss potential features and functionalities for the project. These sessions sparked new ideas and led to better decision-making about what to include in the MVP.
         Design Feedback: I provided feedback on the design aspects of their projects, offering suggestions for improving the user experience and visual appeal. This collaboration helped both of us create more polished final products.
+
+Project Updates
+
+Original Plan: The original design was functional but lacked a modern and polished look.
+Update: The frontend design was overhauled to incorporate a more modern, responsive, and user-friendly interface
+Reasoning: User experience is critical for the success of the application. The initial design did not meet the standard for a contemporary application, so I decided to invest additional time in refining the UI/UX to make it more appealing and intuitive
+
+Original Plan: The plan included integrating external APIs for payment processing, tax calculation, and currency conversion from the outset.
+Update: The scope of API integration was reduced for the MVP. Only the essential APIs for payment processing were implemented, with plans to add tax and currency features in future iterations.
+Reasoning: Integrating all planned APIs is proving to be more complex and time-consuming than initially anticipated. To ensure the project remains on schedule, Iwill focused on integrating the most critical API (payment processing) and deferred the others to a later stage.
