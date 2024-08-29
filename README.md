@@ -207,3 +207,7 @@ Reasoning: User experience is critical for the success of the application. The i
 Original Plan: The plan included integrating external APIs for payment processing, tax calculation, and currency conversion from the outset.
 Update: The scope of API integration was reduced for the MVP. Only the essential APIs for payment processing were implemented, with plans to add tax and currency features in future iterations.
 Reasoning: Integrating all planned APIs is proving to be more complex and time-consuming than initially anticipated. To ensure the project remains on schedule, Iwill focused on integrating the most critical API (payment processing) and deferred the others to a later stage.
+
+PROGRESS
+
+This week, I’d rate my progress at about a 7 out of 10. I’m keeping track by comparing what I’ve finished against the goals I set. I’ve made good headway, especially with the backend and getting the frontend design in place. However, I did hit a few snags while trying to integrate some features, which slowed things down a bit. Even with these challenges, I’m confident the project is still on schedule. I’ve adjusted the timeline slightly, but I’m making sure the most important parts will be completed as planned.
