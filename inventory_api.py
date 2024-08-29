@@ -10,3 +10,13 @@ def get_db_connection():
         password="Jmutewera12345",
         database="pos_system"
     )
+
+    @app.route('/api/items', methods=['GET'])
+def get_items():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM inventory")
+    rows = cursor.fetchall()
+    items = []
+
+
