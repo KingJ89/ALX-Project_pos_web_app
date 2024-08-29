@@ -43,3 +43,17 @@ function fetchItems() {
         fetchItems();
     });
     }
+
+    function deleteItem(itemId) {
+    fetch(`/api/items/${itemId}`, {
+        method: 'DELETE',
+    })
+    .then(response => response.json())
+    .then(data => {
+        fetchItems();
+    });
+}
+
+function editItem(itemId) {
+    // Logic to edit item (similar to addItem) but using PUT method
+}
