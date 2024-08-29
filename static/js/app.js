@@ -11,7 +11,11 @@ function fetchItems() {
             tableBody.innerHTML = '';
             data.forEach(item => {
                 const row = document.createElement('tr');
-                    
+		    row.innerHTML = `
+		<td>${item.id}</td>
+		<td>${item.name}</td>
+		<td>${item.quantity}</td>
+		<td>${item.price}</td>
 		    <td>
                         <button onclick="editItem(${item.id})">Edit</button>
                         <button onclick="deleteItem(${item.id})">Delete</button>
