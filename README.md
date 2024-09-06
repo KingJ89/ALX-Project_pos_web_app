@@ -211,3 +211,28 @@ Reasoning: Integrating all planned APIs is proving to be more complex and time-c
 PROGRESS
 
 This week, I’d rate my progress at about a 7 out of 10. I’m keeping track by comparing what I’ve finished against the goals I set. I’ve made good headway, especially with the backend and getting the frontend design in place. However, I did hit a few snags while trying to integrate some features, which slowed things down a bit. Even with these challenges, I’m confident the project is still on schedule. I’ve adjusted the timeline slightly, but I’m making sure the most important parts will be completed as planned.
+
+project progress link is: https://docs.google.com/document/d/1mQWJ7hTk1MP1Aejw3dclm8IUi1X6ZX166VP820LsRv0/edit?usp=sharing
+
+thats where we share all updates made to the project.
+
+Progress
+
+    Progress Rating: 7/10
+
+    Explanation: This week’s progress has been steady, though some unforeseen challenges slowed things down. We successfully built the CRUD console for managing inventory in Python, and the back-end functionality with MySQL is working as expected. However, integrating the front-end with HTML, CSS, and JavaScript took more time than initially planned. The dynamic features needed for real-time updates proved to be more complex than anticipated.
+
+    Completed Parts: The backend for managing product inventory, including adding, updating, and deleting items in the database, is fully implemented. We also completed the initial design for the front-end user interface, focusing on the two core pages for inventory management and point-of-sale sales.
+
+    Incomplete Aspects: Full front-end functionality, particularly the CRUD operations from the user interface, still needs to be completed and connected to the back-end API. Additionally, implementing real-time updates when products are sold and deducted from the inventory is still in progress.
+
+
+Challenges
+
+Technical Challenge: The most difficult technical challenge this week involved integrating the front-end interface with the back-end Python CRUD operations. The complexity arose when trying to ensure seamless data flow between the client-side JavaScript and the server-side Python code, especially when handling HTTP requests for creating, updating, and deleting items. The front-end, built with HTML, CSS, and JavaScript, uses JSON to send requests to the backend, which utilizes Flask to process these requests and interact with the MySQL database.
+
+One specific hurdle was ensuring that the inventory data in MySQL stayed in sync with real-time updates on the front-end. As each transaction occurred, we needed to make sure the inventory was adjusted accordingly, but the asynchronous nature of JavaScript posed issues where the front-end didn’t immediately reflect the backend changes. Debugging this took time, particularly in dealing with situations where the updates didn’t persist properly in the database or weren’t reflected quickly enough on the user interface. The issue was eventually mitigated by using AJAX for more responsive updates and tweaking the backend routes to handle multiple operations more efficiently.
+
+Non-Technical Challenge: The most difficult non-technical challenge was time management and prioritizing tasks effectively. Initially, the project timeline seemed feasible, but the deeper we got into integration tasks, the more apparent it became that certain phases were under-budgeted in terms of time. For instance, designing the front-end while ensuring it not only looked modern but functioned in alignment with the backend proved to be more time-consuming than anticipated.
+
+Additionally, communicating these changes to external stakeholders—like peers who provided feedback—took more effort. Managing these expectations without causing delays was a fine balance. Shifting priorities to tackle technical issues without losing sight of overall progress required frequent reassessment of timelines. To adapt, we had to revise the project milestones and ensure that the core functionalities for the MVP were prioritized over aesthetic or less critical features, a decision that had to be communicated clearly to everyone involved.
